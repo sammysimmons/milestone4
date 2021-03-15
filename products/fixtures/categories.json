@@ -1,0 +1,3 @@
+[{ "pk": 1, "model": "products.category", "fields": { "name": "App design", "friendly_name": "App design" } },
+    { "pk": 2, "model": "products.category", "fields": { "name": "Logo & Brand identity", "friendly_name": "Logo & Brand identity" } }
+]
