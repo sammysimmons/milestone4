@@ -1,21 +1,9 @@
 [{
     "pk": 1,
     "model": "products.product",
-    "fields": {
-        "name": "App Design",
-        "description": "A user friendly app that gets downloads",
-        "price": 469,
-        "category": 6,
-        "image ": "noun_app design_326362.svg"
-    }
+    "fields": { "name": "App Design", "description": "A user friendly app that gets downloads", "price": 469, "category": 6, "image": "" }
 }, {
-    "pk ": 2,
-    "model ": "products.product",
-    "fields ": {
-        "name": "Logo and Brand Identity",
-        "description ": "A logo, plus print essentials for your business",
-        "price": 469,
-        "category": 4,
-        "image": "noun_brand Design_1561172.svg"
-    },
+    "pk": 2,
+    "model": "products.product",
+    "fields": { "name": "Logo & Brand Identity", "description": "A logo, plus print essentials for your business", "price": 469, "category": 6, "image": "" }
 }]
