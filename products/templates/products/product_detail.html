@@ -8,37 +8,71 @@
 <div class="overlay"></div>
 <div class="container-fluid">
     <div class="row">
-        <form>
-            <div class="form-group">
-                <label for="exampleFormControlInput1">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-            </div>
-            <div class="form-group">
-                <label for="exampleFormControlSelect1">Example select</label>
-                <select class="form-control" id="exampleFormControlSelect1">
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
-              </select>
-            </div>
-            <div class="form-group">
-                <label for="exampleFormControlSelect2">Example multiple select</label>
-                <select multiple class="form-control" id="exampleFormControlSelect2">
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
-              </select>
-            </div>
-            <div class="form-group">
-                <label for="exampleFormControlTextarea1">Example textarea</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
-        </form>
+        <div class="col-12 col-md-6 col-lg-8 offset-lg-2">
+            <h1>Tell us about your project</h1>
+            <br>
+            <form>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Name Your Project</label>
+                    <input type="projectname" class="form-control" id="exampleFormControlInput1" placeholder="E.g Website for selling orange juice">
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">What type of design do you need?</label>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Select Category</option>
+                        <option value="1">App Design</option>
+                        <option value="2">Logo and Brand Identity</option>
+                        <option value="3">Web Page Design and Build</option>
+                        <option value="4">Website Design and Build</option>
+                        <option value="5">Billboards</option>
+                        <option value="6">Illustrations</option>
+                        <option value="7">Packaging Design</option>
+                        <option value="8">Garment Design Tech</option>
+                        <option value="9">Email Design and Build</option>
+                        <option value="10">Product Labels</option>
+                        <option value="11">Books and Booklets</option>
+                        <option value="12">Instore Window & Displays</option>
+                        </select>
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="validationTextarea" class="form-label">Describe your project</label>
+                    <textarea class="form-control" id="validationTextarea" style="height: 150px" placeholder="E.g I need a website for selling orange juice, it should feature a retro and vibrant design. I would also like to discuss packaging designs as i would like to refresh my product line."></textarea>
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">How will your design be used?</label>
+                    <input type="projectname" class="form-control" id="exampleFormControlInput1" placeholder="E.g Bookcover, Facebook, Snapchat etc.">
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Link to any inspiration on the web</label>
+                    <input type="projectname" class="form-control" id="exampleFormControlInput1" placeholder="www.pinterest.co.uk/samdesign/">
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">Whats your timeline?</label>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>We will confirm whether your delivery date can be met based on project scope and availability</option>
+                        <option value="1">48 hours</option>
+                        <option value="2">1 week</option>
+                        <option value="3">2 weeks</option>
+                        <option value="4">1 month</option>
+                        <option value="5">Not sure I'd like a chat</option>
+                        </select>
+                </div>
+                <br>
+
+                <div class="input-group col-md-6">
+                    <label for="exampleFormControlSelect1">Whats your budget?</label>
+                    <span class="input-group-text">£</span>
+                    <input type="text" class="form-control" aria-label="Amount">
+                    <span class="input-group-text">.00</span>
+                </div>
+        </div>
     </div>
+    </form>
 </div>
 </div>
 {% endblock %}
