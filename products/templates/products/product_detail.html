@@ -54,7 +54,7 @@
                 <div class="form-group">
                     <label for="exampleFormControlSelect1">Whats your timeline?</label>
                     <select class="form-select" aria-label="Default select example">
-                        <option selected>We will confirm whether your delivery date can be met based on project scope and availability</option>
+                        <option selected>I can confirm whether your delivery date can be met based on project scope and availability</option>
                         <option value="1">48 hours</option>
                         <option value="2">1 week</option>
                         <option value="3">2 weeks</option>
@@ -64,12 +64,27 @@
                 </div>
                 <br>
 
-                <div class="input-group col-md-6">
-                    <label for="exampleFormControlSelect1">Whats your budget?</label>
-                    <span class="input-group-text">£</span>
-                    <input type="text" class="form-control" aria-label="Amount">
-                    <span class="input-group-text">.00</span>
-                </div>
+                <form class="row row-cols-lg-auto g-3 align-items-center">
+                    <div class="col-12">
+                        <label class="visually-hidden" for="inlineFormInput">Budget</label>
+                        <div class="input-group">
+                            <div class="input-group-text">£</div>
+                            <input type="text" class="form-control" id="inlineFormInput" placeholder="Budget">
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="inlineFormCheck">
+                            <label class="form-check-label" for="inlineFormCheck">
+                          Unlimited
+                        </label>
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
         </div>
     </div>
     </form>
