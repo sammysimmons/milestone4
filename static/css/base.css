@@ -11,7 +11,7 @@ body {
 
 .introduction {
     padding-top: 50px;
-    background: rgb(255, 253, 230);
+    background: #fff;
     background-size: cover;
     height: calc(100v - 164px);
     color: rgba(63, 63, 63, 0.954);
@@ -19,6 +19,10 @@ body {
 
 .aboutme {
     padding-top: 30px;
+}
+
+.services {
+    padding-top: 50px;
 }
 
 .nav-logo {
