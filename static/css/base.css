@@ -9,11 +9,39 @@ body {
     color: rgba(63, 63, 63, 0.954);
 }
 
+.introduction {
+    padding-top: 50px;
+    background: rgb(255, 253, 230);
+    background-size: cover;
+    height: calc(100v - 164px);
+    color: rgba(63, 63, 63, 0.954);
+}
+
+.aboutme {
+    padding-top: 30px;
+}
+
 .nav-logo {
     margin-left: 30px;
     float: left;
     width: 80px;
     height: auto;
+}
+
+.shop-now-button {
+    background: black;
+    color: white;
+    min-width: 260px;
+}
+
+.shop-now-button:hover,
+.shop-now-button:active,
+.shop-now-button:focus,
+.btn-black:hover,
+.btn-black:active,
+.btn-black:focus {
+    background: #222;
+    color: white;
 }
 
 .text-black {
@@ -32,6 +60,34 @@ body {
     position: fixed;
     background: white;
     z-index: -1;
+}
+
+.card {
+    border: none;
+    outline: none;
+    background: #fff;
+    border-radius: 20px;
+    transition: transform .3s;
+}
+
+.card:hover {
+    transform: translateY(-15px);
+    transition: transform .3s;
+}
+
+.text1 {
+    font-size: 13px;
+    color: #cbcbcb;
+}
+
+.cost {
+    color: #3f3f3f;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.sellingpoint {
+    background: #3f3f3f;
 }
 
 
