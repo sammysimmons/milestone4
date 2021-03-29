@@ -6,4 +6,8 @@
     "pk": 2,
     "model": "products.product",
     "fields": { "name": "Logo & Brand Identity", "description": "A logo, plus print essentials for your business", "price": 469, "category": 6, "image": "" }
+}, {
+    "pk": 3,
+    "model": "products.product",
+    "fields": { "name": "Landing Page Design & Build", "description": "Visitors are coming in for a landing, is your site prepared? With a custom landing page, it will be!", "price": 469, "category": 6, "image": "" }
 }]
