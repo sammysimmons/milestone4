@@ -71,7 +71,7 @@
                     <div class="product-1 align-items-center p-2 text-center">
 
                         <img src="media/web_icons_-06.png" alt="landing page design" class="rounded" width="160">
-                        <h5>Landing Page Design & Build</h5>
+                        <h5></h5>
                         <div class="mt-3 info">
                             <span class="text1 d-block">Visitors are coming in for a landing, is your site prepared? With a custom landing page, it will be!</span>
                             <span class="text1">£279 - £869 estimated price range</span>
@@ -81,7 +81,7 @@
                         </div>
                     </div>
                 </div>
-                <form class="form" action="{% url 'add_to_bag' %}" method="POST">
+                <form class="form" action="" method="POST">
                     {% csrf_token %}
                     <div class="form-row">
                         <div class="p-3 sellingpoint text-center text-white mt-3 cursor">
@@ -99,17 +99,17 @@
                     <div class="product-1 align-items-center p-2 text-center">
 
                         <img src="media/web_icons_-02.png" alt="brand design" class="rounded" width="160">
-                        <h5>Logo & brand identity pack</h5>
+                        <h5>{{ logoandbrand.name }}</h5>
                         <div class="mt-3 info">
                             <span class="text1 d-block">Jump start your business and get your professional logo & business pack</span>
                             <span class="text1">£190 - £559 estimated price range</span>
                         </div>
                         <div class="cost mt-3 text-dark">
-                            <span>Standard Package £300</span>
+                            <span>Standard Package {{ logoandbrand.price }}</span>
                         </div>
                     </div>
                 </div>
-                <form class="form" action="{% url 'add_to_bag' %}" method="POST">
+                <form class="form" action="{% url 'add_to_bag' logoandbrand.id %}" method="POST">
                     {% csrf_token %}
                     <div class="form-row">
                         <div class="p-3 sellingpoint text-center text-white mt-3 cursor">
@@ -126,7 +126,7 @@
                     <div class="product-1 align-items-center p-2 text-center">
 
                         <img src="media/web_icons_-01.png" alt="App design" class="rounded" width="160">
-                        <h5>App Design</h5>
+                        <h5></h5>
                         <div class="mt-3 info">
                             <span class="text1 d-block">Turn downloaders into regular users with great app design. Coding not included</span>
                             <span class="text1">£509 - £1,449 estimated price range</span>
@@ -136,7 +136,7 @@
                         </div>
                     </div>
                 </div>
-                <form class="form" action="{% url 'add_to_bag' %}" method="POST">
+                <form class="form" action="" method="POST">
                     {% csrf_token %}
                     <div class="form-row">
                         <div class="p-3 sellingpoint text-center text-white mt-3 cursor">
