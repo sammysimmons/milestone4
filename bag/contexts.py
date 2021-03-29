@@ -24,4 +24,5 @@ def bag_contents(request):
         'product_count': product_count,
     }
 
+
     return context

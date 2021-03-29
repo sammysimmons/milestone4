@@ -84,7 +84,7 @@
                     {% csrf_token %}
                     <div class="form-row">
                         <div class="p-3 sellingpoint text-center text-white mt-3 cursor">
-                            <input type="submit" class="btn btn-black text-white rounded-0 text-uppercase" date-item_id="{{ product.id }}" id="{{ product.id }}" value="Add to Basket">
+                            <input type="submit" class="btn btn-black text-white rounded-0 text-uppercase" date-item_id="{{ product.id }}" id="{{ product.name }}" value="Add to Basket">
                         </div>
                         <input type="hidden" name="redirect_url" value="{{ request.path }}">
                     </div>
@@ -111,7 +111,7 @@
                     {% csrf_token %}
                     <div class="form-row">
                         <div class="p-3 sellingpoint text-center text-white mt-3 cursor">
-                            <input type="submit" class="btn btn-black text-white rounded-0 text-uppercase" date-item_id="{{ product.id }}" id="{{ product.id }}" value="Add to Basket">
+                            <input type="submit" class="btn btn-black text-white rounded-0 text-uppercase" date-item_id="{{ product.id }}" id="{{ product.name }}" value="Add to Basket">
                         </div>
                         <input type="hidden" name="redirect_url" value="{{ request.path }}">
                     </div>
@@ -137,7 +137,7 @@
                     {% csrf_token %}
                     <div class="form-row">
                         <div class="p-3 sellingpoint text-center text-white mt-3 cursor">
-                            <input type="submit" class="btn btn-black text-white rounded-0 text-uppercase" date-item_id="{{ product.id }}" id="{{ product.id }}" value="Add to Basket">
+                            <input type="submit" class="btn btn-black text-white rounded-0 text-uppercase" date-item_id="{{ product.id }}" id="{{ product.name }}" value="Add to Basket">
                         </div>
                         <input type="hidden" name="redirect_url" value="{{ request.path }}">
                     </div>
