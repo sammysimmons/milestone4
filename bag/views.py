@@ -11,7 +11,10 @@ def add_to_bag(request, item_name):
 
     redirect_url = request.POST.get('redirect_url')
     bag = request.session.get('bag', {})
-    print(item_name)
+
+    if item_name in list(bag.keys()):
+        bag[item_name]
 
     request.session['bag'] = bag
+    print(request.session['bag'])
     return redirect(redirect_url)
