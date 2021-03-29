@@ -49,6 +49,12 @@ body {
     min-width: 260px;
 }
 
+.btn-outline-black {
+    background: white;
+    color: black im !important;
+    border: 1px solid black;
+}
+
 .shop-now-button:hover,
 .shop-now-button:active,
 .shop-now-button:focus,

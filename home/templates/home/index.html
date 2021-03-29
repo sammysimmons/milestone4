@@ -79,9 +79,15 @@
                         </div>
                     </div>
                 </div>
-                <div class="p-3 sellingpoint text-center text-white mt-3 cursor">
-                    <span class="text-uppercase">Add to Basket</span>
-                </div>
+                <form class="form" action="{% url 'add_to_bag' %}" method="POST">
+                    {% csrf_token %}
+                    <div class="form-row">
+                        <div class="p-3 sellingpoint text-center text-white mt-3 cursor">
+                            <input type="submit" class="btn btn-black text-white rounded-0 text-uppercase" value="Add to Basket">
+                        </div>
+                        <input type="hidden" name="redirect_url" value="{{ request.path }}">
+                    </div>
+                </form>
             </div>
             <!--end of card one-->
 
@@ -101,9 +107,15 @@
                         </div>
                     </div>
                 </div>
-                <div class="p-3 sellingpoint text-center text-white mt-3 cursor">
-                    <span class="text-uppercase">Add to Basket</span>
-                </div>
+                <form class="form" action="{% url 'add_to_bag' %}" method="POST">
+                    {% csrf_token %}
+                    <div class="form-row">
+                        <div class="p-3 sellingpoint text-center text-white mt-3 cursor">
+                            <input type="submit" class="btn btn-black text-white rounded-0 text-uppercase" value="Add to Basket">
+                        </div>
+                        <input type="hidden" name="redirect_url" value="{{ request.path }}">
+                    </div>
+                </form>
             </div>
 
             <!--card three-->
@@ -122,11 +134,18 @@
                         </div>
                     </div>
                 </div>
-                <div class="p-3 sellingpoint text-center text-white mt-3 cursor">
-                    <span class="text-uppercase">Add to Basket</span>
-                </div>
+                <form class="form" action="{% url 'add_to_bag' %}" method="POST">
+                    {% csrf_token %}
+                    <div class="form-row">
+                        <div class="p-3 sellingpoint text-center text-white mt-3 cursor">
+                            <input type="submit" class="btn btn-black text-white rounded-0 text-uppercase" value="Add to Basket">
+                        </div>
+                        <input type="hidden" name="redirect_url" value="{{ request.path }}">
+                    </div>
+                </form>
             </div>
         </div>
+    </div>
     </div>
     </div>
 </section>
