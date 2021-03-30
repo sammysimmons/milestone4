@@ -64,7 +64,7 @@
                     </tr>
                     <tr>
                         <td colspan="5 " class="text-right ">
-                            <a href="{% url 'products' %} " class="btn btn-outline-black rounded-0 btn-lg ">
+                            <a href="{% url ' products ' %} " class="btn btn-outline-black rounded-0 btn-lg ">
                                 <span class="icon ">
                                         <i class="fas fa-chevron-left "></i>
                                     </span>
@@ -82,7 +82,7 @@
             </div>
             {% endblock %}
             <p class="lead mb-5 ">Your bag is empty.</p>
-            <a href="{% url 'products' %} " class="btn btn-outline-black rounded-0 btn-lg ">
+            <a href="{% url 'products ' %} " class="btn btn-outline-black rounded-0 btn-lg ">
                 <span class="icon ">
                         <i class="fas fa-chevron-left "></i>
                     </span>
@@ -93,12 +93,12 @@
 </div>
 
 <script type="text/javascript ">
-    $('.remove-item').click(function(e) {
+    $('.remove-item ').click(function(e) {
         var csrfToken = "{{ csrf_token }} ";
-        var item_name = $(this).attr('item_name').split('remove_')[1];
+        var item_name = $(this).attr('name ').split('remove_ ')[1];
         var url = `/bag/remove/${item_name}/`;
         var data = {
-            'csrfmiddlewaretoken': csrfToken,
+            'csrfmiddlewaretoken ': csrfToken,
         };
         $.post(url, data).done(function() {
             location.reload();
