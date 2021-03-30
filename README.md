@@ -67,7 +67,7 @@ I have also had family members testing out the website, to get feedback on the u
 Found bugs/ errors
 
 issue 1 - getting the database to select 3 product IDs instead of loading all from the database. gave me the error - TypeError at /
-get_object_or_404() missing 1 required positional argument: 'klass' which even baffled a few tutors at the time
+get_object_or_404() missing 1 required positional argument: 'klass' which even baffled a few tutors, so i had to revert my working file back after all the changes recommended by tutors made more errors than i started with.
 
 issue 2 - Heroku created a number of bugs for me to resolve, typically due to my inexperience with using Heroku, along with using VSC as my desired platform to build in. 
 

@@ -14,6 +14,8 @@ def add_to_bag(request, item_name):
 
     if item_name in list(bag.keys()):
         bag[item_name]
+    else:
+        bag[item_name] = item_name
 
     request.session['bag'] = bag
     return redirect(redirect_url)

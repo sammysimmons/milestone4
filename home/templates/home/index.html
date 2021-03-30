@@ -80,7 +80,7 @@
                         </div>
                     </div>
                 </div>
-                <form class="form" action="{% url 'add_to_bag' landingpage.id %}" method="POST">
+                <form class="form" action="{% url 'add_to_bag' landingpage.pk %}" method="POST">
                     {% csrf_token %}
                     <div class="form-row">
                         <div class="p-3 sellingpoint text-center text-white mt-3 cursor">
@@ -107,7 +107,7 @@
                         </div>
                     </div>
                 </div>
-                <form class="form" action="{% url 'add_to_bag' logoandbrand.id %}" method="POST">
+                <form class="form" action="{% url 'add_to_bag' logoandbrand.pk %}" method="POST">
                     {% csrf_token %}
                     <div class="form-row">
                         <div class="p-3 sellingpoint text-center text-white mt-3 cursor">
@@ -133,7 +133,7 @@
                         </div>
                     </div>
                 </div>
-                <form class="form" action="{% url 'add_to_bag' appdesign.id %}" method="POST">
+                <form class="form" action="{% url 'add_to_bag' appdesign.pk %}" method="POST">
                     {% csrf_token %}
                     <div class="form-row">
                         <div class="p-3 sellingpoint text-center text-white mt-3 cursor">

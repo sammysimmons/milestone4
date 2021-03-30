@@ -5,9 +5,9 @@ from products.models import Product
 
 def index(request):
     """ A view to show 3 standard services on the homepage to checkout """
-    product1 = get_object_or_404(Product, pk=2)
-    product2 = get_object_or_404(Product, pk=4)
-    product3 = get_object_or_404(Product, pk=1)
+    product1 = get_object_or_404(klass=Product, pk=2)
+    product2 = get_object_or_404(klass=Product, pk=4)
+    product3 = get_object_or_404(klass=Product, pk=1)
 
 
     context = {
