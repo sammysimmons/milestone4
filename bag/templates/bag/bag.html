@@ -41,6 +41,7 @@
                         </td>
                         <td class="py-3">
                             <p class="my-0"><strong>{{ item.product.name }}</strong></p>
+                            <a class="remove-item text-danger float-right" id="remove_{{ item.item_id }}" data-size="{{ item.size }}"><small>Remove</small></a>
                         </td>
                         <td class="py-3">
                             <p class="my-0">${{ item.product.price }}</p>
@@ -53,6 +54,7 @@
                         </td>
                     </tr>
                     {% endfor %}
+
                     <tr>
                         <td colspan="5" class="pt-5 text-right">
                             <h6><strong>Bag Total: ${{ total|floatformat:2 }}</strong></h6>
@@ -89,3 +91,17 @@
         </div>
     </div>
 </div>
+
+<script type="text/javascript">
+    $('.remove-item').click(function(e) {
+        var csrfToken = "{{ csrf_token }}";
+        var itemId = $(this).attr('id').split('remove_')[1];
+        var url = `/bag/remove/${itemId}`;
+        var data = {
+            'csrfmiddlewaretoken': csrfToken,
+        };
+        $.post(url, data).done(function() {
+            location.reload();
+        });
+    })
+</script>
