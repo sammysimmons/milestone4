@@ -119,5 +119,6 @@ For more information check out GitHub's guide to cloning a repo here.
 ## Acknowledgement
 Free imagery resource [pixabay](https://pixabay.com/)
 
+ Debugging Article for [Javascipt] (https://dzone.com/articles/debug-javascript-using-chrome-developer-tools)
 
 Onload Attribute isn't supported on all elements in particular it won't work on a div tag, here's a list of where it's valid to use: https://www.w3schools.com/tags/ev_onload.asp

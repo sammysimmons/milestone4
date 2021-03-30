@@ -25,8 +25,8 @@ def add_to_bag(request, item_name):
 def remove_from_bag(request, item_name):
     """ remove the item from bag"""
 
-    item_name in list(bag.keys())
-    bag.pop(item_name)
+    if 'item_name' in list(bag.keys()):
+        bag.pop(item_name)
 
     request.session['bag'] = bag
     return HttpResponse(status=200)
