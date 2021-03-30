@@ -121,4 +121,4 @@ Free imagery resource [pixabay](https://pixabay.com/)
 
  Debugging Article for [Javascipt] (https://dzone.com/articles/debug-javascript-using-chrome-developer-tools)
 
-Onload Attribute isn't supported on all elements in particular it won't work on a div tag, here's a list of where it's valid to use: https://www.w3schools.com/tags/ev_onload.asp
+ Cross Site Request Forgery protection and how to use it [csrf] (https://docs.djangoproject.com/en/3.1/ref/csrf/#setting-the-token-on-the-ajax-request)
