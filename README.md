@@ -56,6 +56,8 @@ My design career extends from over 10 years experience, which i could put into t
 - portfolio could do with expanding on so each could have its own individual page which would talk more in depth about each project
 - including videos 
 - having a portal for clients to download their work from once they have logged into the site
+- about which would include more information about me and where i have worked so my journey so far
+-the checkout to aslo include a form inwhich the client can input personal data/ simular to the form on the product_details page
 
 
 ## Testing
@@ -88,6 +90,8 @@ Check browser compatibility in Firefox, Chrome, and Safari
 ## Outstanding Issues
 
 From testers feedback i also have the suggestion of adding a pop up element with a notifications. 
+
+Also account access issues form the home page, you cannot select the dropdown, aldo mobile doesnt work either on the hamburger menu 
 
 ## Database Structure
 
