@@ -1,8 +1,8 @@
 # Personal Advertising/ Design services Project-MS4
 design services and portfolio for educational purposes only, which i wish to expand upon marking completion. bootstrap styling template has been used for this project.
 
-Fitness tracker can be accesses here:
-insert heroku link here
+Milestone 4 can be accesses here:
+insert heroku link https://milestone-4-samsimmons.herokuapp.com/
 
 
 ## UX & UI
