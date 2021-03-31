@@ -19,7 +19,7 @@ SECRET_KEY = 'i3bjd%3huw3y!+#p+vf!&ttyp2^r8wj5*2!un#y(3)5#!7f==^'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'DEVELOPMENT' in os.environ
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', 'milestone-4-samsimmons.herokuapp.com']
 
 
 # Application definition
@@ -124,12 +124,13 @@ if 'DATABASE_URL' in os.environ:
     DATABASES = {
       'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
     }
+
 else:
     DATABASES = {
-        'default': dj_database_url.parse('postgres://fxcomzfesxjsey:7d113c9c6fc694d8ededa76484b2a715c70a5fab5a963776dc51e2f95c3b16ef@ec2-18-206-20-102.compute-1.amazonaws.com:5432/d9rm3v1cndfm0u'),
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-        
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        }
     }
 
 
