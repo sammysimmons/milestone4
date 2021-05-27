@@ -78,39 +78,15 @@ This project is built with Python, Django, CSS, bootstrap, and uses Django to st
 - Imagery - All imagery is from my portfolio which i have permission to use from each of the brands, aslong as the products are already in the public eye.
 
 ## Future Features
-
-I AM YET TO GET THE IMAGERY TO WORK THROUGH AWS BUT LITTLE DID I KNOW YOU NEED 24 hours TO VERIFY YOUR ACCOUNT! WHICH I STUPIDLY LEFT TO LAST MINUTE BEFORE I SUBMIT ON DEADLINE DUE DATE. I WAITING A FEW HOURS AND EVEN CONTACTED AWS TO GET THEM TO SPEED IT THROUGH BUT THEYVE TOLD ME TO AWAIT 24 HOURS __
-
---Hello there
-
-Thank you for reaching out today.
-
-To summarize our chat earlier, you reach out in order to complete the verification of the account.
-
-I've sent your manual activation request to the service team. I'll follow up with you via email as soon as I receive a response. Please note, manual activation requests can take up to 24 hours.
-
-Thank you for your patience while we work on this.
-
-In the meantime if you have anymore questions, please respond using the link below mmy signature, we will be more than willing to assist you.
-
-Have a great rest of your day.
-
-We value your feedback. Please share your experience by rating this correspondence using the AWS Support Center link at the end of this correspondence. Each correspondence can also be rated by selecting the stars in top right corner of each correspondence within the AWS Support Center.
-
-Best regards,
-Marcos A
-Amazon Web Services----
-
-My design career extends from over 10 years experience, which i could put into this website with alot more time.
-
+-My design career extends from over 10 years experience, which i could put into this website by having a range of portfolio projects accessable, but maybe if theyre password protected.
 - Social interactions, i could do with getting a social platform linked to the site for more advertisment channel
 - how it works page, which could talk more in depth about what to expect my turn around times ect.
 - portfolio could do with expanding on so each could have its own individual page which would talk more in depth about each project
 - including videos 
 - having a portal for clients to download their work from once they have logged into the site
 - about which would include more information about me and where i have worked so my journey so far
--the checkout to aslo include a form inwhich the client can input personal data/ simular to the form on the product_details page
-
+-the checkout to also include a form inwhich the client can input personal data/ simular to the form on the product_details page
+- not sure if i would require the checkout service depends if i was to use this as a purchasing platform but i think for what i want to offer you dont really have set charges for, same for websites. unless you go down the route of selling templates.
 
 ## Testing
 
@@ -132,7 +108,6 @@ issue 4 - I AM YET TO GET THE IMAGERY TO WORK THROUGH AWS BUT LITTLE DID I KNOW 
 
 
 Mentor review - Overall positive feedback from my mentor, Jonathon he suggested 
-
 Manual testing for css styling was done through the live preview port, in visual code.
 
 ## Device/Browser Testing
