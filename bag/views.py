@@ -19,7 +19,7 @@ def add_to_bag(request, item_name):
         bag[item_name] = item_name
 
     request.session['bag'] = bag
-    return redirect(redirect_url)
+    return render(request, 'bag/bag.html')
 
 
 def remove_from_bag(request, item_name):

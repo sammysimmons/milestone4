@@ -103,9 +103,6 @@ issue 2 - when removing items from the bag, nothing was happening, no errors wer
 
 issue 3 - Heroku created a number of bugs for me to resolve, typically due to my inexperience with using Heroku, along with using VSC as my desired platform to build in.
 
-issue 4 - I AM YET TO GET THE IMAGERY TO WORK THROUGH AWS BUT LITTLE DID I KNOW YOU NEED 24 hours TO VERIFY YOUR ACCOUNT! WHICH I STUPIDLY LEFT TO LAST MINUTE BEFORE I SUBMIT ON DEADLINE DUE DATE. I WAITING A FEW HOURS AND EVEN CONTACTED AWS TO GET THEM TO SPEED IT THROUGH BUT THEYVE TOLD ME TO AWAIT 24 HOURS ------- if i could gain more time i would love to continue with this project and turn this into a live site to sell my services through
-
-
 
 Mentor review - Overall positive feedback from my mentor, Jonathon he suggested 
 Manual testing for css styling was done through the live preview port, in visual code.
