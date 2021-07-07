@@ -87,6 +87,7 @@ This project is built with Python, Django, CSS, bootstrap, and uses Django to st
 - about which would include more information about me and where i have worked so my journey so far
 -the checkout to also include a form inwhich the client can input personal data/ simular to the form on the product_details page
 - not sure if i would require the checkout service depends if i was to use this as a purchasing platform but i think for what i want to offer you dont really have set charges for, same for websites. unless you go down the route of selling templates.
+- future feature would also to have the forms linked up correctly on enquirying about a product/ service
 
 ## Testing
 
@@ -103,9 +104,14 @@ issue 2 - when removing items from the bag, nothing was happening, no errors wer
 
 issue 3 - Heroku created a number of bugs for me to resolve, typically due to my inexperience with using Heroku, along with using VSC as my desired platform to build in.
 
+issue 4 - in staging had to use the  command export DEVELOPMENT = TRUE to set the enviroment variable for the terminal to get the CSS styling to apply on testing
+
+issue 5 - was the wrong bootstrap templating i was pulling into my site was a different version to what i should have been using
 
 Mentor review - Overall positive feedback from my mentor, Jonathon he suggested 
 Manual testing for css styling was done through the live preview port, in visual code.
+
+Additional feedback was the homepage services which you could add to basket were confusing when adding to basket as the image changes, so i have corrrected this to save any further confusion
 
 ## Device/Browser Testing
 
