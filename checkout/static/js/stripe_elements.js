@@ -24,7 +24,9 @@ var style = {
         iconColor: '#fa755a'
     }
 };
-var card = elements.create('card', { style: style });
+var card = elements.create('card', {
+    style: style
+});
 card.mount('#card-element');
 
 // Handle realtime validation errors on the card element
